@@ -4,5 +4,5 @@
 /.settings
 /.buildpath
 /.project
-composer.lock
+/composer.lock
 /.idea

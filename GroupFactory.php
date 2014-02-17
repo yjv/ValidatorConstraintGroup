@@ -44,4 +44,12 @@ class GroupFactory implements GroupFactoryInterface
         $this->loaders[] = $loader;
         return $this;
     }
+
+    /**
+     * @return array
+     */
+    public function getLoaders()
+    {
+        return $this->loaders;
+    }
 }

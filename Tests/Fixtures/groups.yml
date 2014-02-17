@@ -1,0 +1,14 @@
+group1:
+  - Symfony\Component\Validator\Constraints\NotBlank:
+      message: hello
+  - Symfony\Component\Validator\Constraints\NotBlank:
+      message: goodbye
+  - Symfony\Component\Validator\Constraints\True:
+      message: hahahahahah
+group2:
+  - Symfony\Component\Validator\Constraints\NotBlank:
+      message: goodbye
+  - Symfony\Component\Validator\Constraints\NotBlank:
+      message: hahahahahah
+  - Symfony\Component\Validator\Constraints\True:
+      message: hello

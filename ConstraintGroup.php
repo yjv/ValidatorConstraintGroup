@@ -20,6 +20,11 @@ class ConstraintGroup
         $this->constraints = $constraints;
     }
 
+    public function getName()
+    {
+        return $this->name;
+    }
+
     public function getConstraints()
     {
         return $this->constraints;
